@@ -1,4 +1,4 @@
-import { Button } from 'use-commonses';
+// import { Button } from 'use-commonses';
 
 const useNPM = () => {
   const handleClick = (e: any) => {
@@ -8,7 +8,7 @@ const useNPM = () => {
     <>
       <h3>自定义npm组件</h3>
       <hr />
-      <Button>数据</Button>
+      {/* <Button>数据</Button> */}
     </>
   );
 };
