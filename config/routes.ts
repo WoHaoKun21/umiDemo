@@ -70,5 +70,10 @@ const routes: Array<API.Routes> = [
     path: '/npm',
     component: './useNPM',
   },
+  {
+    name: 'Echarts3D饼状图',
+    path: '/echartPie',
+    component: './3DEchartPie',
+  },
 ];
 export default routes;
